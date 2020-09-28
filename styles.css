@@ -606,7 +606,7 @@ footer {
   .section-4,
   .section-5 {
     display: block;
-    padding: 2rem 1rem!important;
+    padding: 2rem 1rem !important;
   }
 
   .section-1 {
@@ -650,9 +650,12 @@ footer {
     padding: 2rem 0;
   }
 
-  .section-4 .row-2 .col-2 p:first-of-type {
-    margin-top: 2rem;
+  .section-4 .row-2 .col-2 {
     margin-left: 0 !important;
+    margin-top: 2rem;
+  }
+
+  .section-4 .row-2 .col-2 p:first-of-type {
     font-size: 1.25rem !important;
   }
 
