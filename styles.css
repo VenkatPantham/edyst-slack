@@ -20,6 +20,8 @@ ul {
 header {
   position: fixed;
   width: 100%;
+  top: 0;
+  z-index: 1;
   background-color: #ffffff;
 }
 
@@ -582,15 +584,15 @@ section .vertical {
 
 @media screen and (max-width: 650px) {
   header {
-    height: 0.5rem !important;
+    height: 4rem !important;
   }
 
   .max-logo {
-    top: 1.5rem !important;
+    top: 1.25rem !important;
   }
 
   #nav-trigger {
-    top: 1.25rem !important;
+    top: 1rem !important;
     font-size: 1.5rem !important;
   }
 
